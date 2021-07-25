@@ -1,512 +1,132 @@
-select `confessions`.* from `confessions` limit '10' offset '10' : 5ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' offset '10' : 5ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 2ms
-select `confessions`.* from `confessions` limit '10' offset '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' offset '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' offset '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' offset '10' : 4ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' offset '10' : 0ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' offset '10' : 0ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' offset '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' offset '10' : 0ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' offset '10' : 0ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' offset '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' offset '10' : 0ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' offset '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-insert into `confessions` (`confession`) values ('the courage to change') : 3ms
-insert into `confessions` (`confession`) values ('the courage to change') : 5ms
-insert into `confessions` (`confession`) values ('the courage to change') : 10ms
-insert into `confessions` (`confession`) values ('the courage to change') : 7ms
-insert into `confessions` (`confession`) values ('the courage to change') : 2ms
-insert into `confessions` (`confession`) values ('the courage to change') : 7ms
-select `confessions`.* from `confessions` limit '10' offset '10' : 4ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 2ms
-select `confessions`.* from `confessions` limit '10' offset '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' offset '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' offset '10' : 0ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' offset '10' : 0ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' offset '10' : 0ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' offset '10' : 5ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 2ms
-select `confessions`.* from `confessions` limit '10' : 5ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' : 0ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' : 2ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' offset '10' : 6ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 4ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 3ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 0ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' offset '20' : 0ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' : 2ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 2ms
-select `confessions`.* from `confessions` limit '10' : 2ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 4ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 2ms
-select `confessions`.* from `confessions` limit '10' : 5ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 2ms
-select `confessions`.* from `confessions` limit '10' : 3ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 2ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 3ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 2ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 2ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 0ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 2ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 2ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 3ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' : 0ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 2ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 0ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 2ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 0ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 2ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' : 0ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 0ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 2ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 2ms
-select `confessions`.* from `confessions` limit '10' : 2ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 2ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 4ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 5ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 2ms
-select `confessions`.* from `confessions` limit '10' : 2ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 2ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-insert into `confessions` (`confession`) values ('some thing') : 3ms
-insert into `confessions` (`confession`) values ('some thing') : 17ms
-insert into `confessions` (`confession`) values ('some thing') : 3ms
-select `confessions`.* from `confessions` limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-insert into `confessions` (`confession`) values ('the courage to change') : 4ms
-insert into `confessions` (`confession`) values ('the courage to change') : 7ms
-select `confessions`.* from `confessions` limit '10' : 3ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 5ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-insert into `confessions` (`confession`) values ('asdfasdfasf
-asfasdf
-asdf') : 3ms
 select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 1ms
+select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
+select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 1ms
+select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
+select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 1ms
+select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
+select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 1ms
 select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
 select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 1ms
 select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 5ms
+select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 1ms
+select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
+select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 1ms
 select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-insert into `confessions` (`confession`) values ('sd
-') : 6ms
+select `confessions`.* from `confessions` order by `id` desc limit '10' offset '10' : 2ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('18', '17', '16', '15', '14', '13', '12', '11', '10', '9') : 1ms
+select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
+select `confessions`.* from `confessions` order by `id` desc limit '10' offset '20' : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('8', '7', '6', '5', '4', '3', '2', '1') : 2ms
+select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
+select `confessions`.* from `confessions` order by `id` desc limit '10' offset '30' : 1ms
+select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('23') : 5ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('23') : 4ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('23') : 5ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('23') : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('23') : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('23') : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('23') : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('23') : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('23') : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('23') : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('23') : 0ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('23') : 0ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('23') : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('23') : 1ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('23', 'asdffdsa') : 71ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('23', 'the courage to change') : 6ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('23', 'the courage to change') : 2ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('23', 'the courage to change') : 7ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('23', 'the courage to change') : 2ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('23', 'the courage to change') : 8ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('23', 'the courage to change') : 2ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('23', 'the courage to change') : 13ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('23', 'the courage to change') : 7ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('23', 'the courage to change') : 2ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('23', 'the courage to change') : 12ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('23', 'the courage to change') : 9ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('23', 'the courage to change') : 1ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('23', 'the courage to change') : 9ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('23', 'the courage to change') : 2ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('23', 'the courage to change') : 7ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('23', 'the courage to change') : 3ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('23', 'the courage to change') : 7ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('23', 'the courage to change') : 9ms
 select `confessions`.* from `confessions` order by `id` desc limit '10' : 4ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 2ms
 select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-insert into `confessions` (`confession`) values ('asdasd') : 3ms
-insert into `confessions` (`confession`) values ('the courage to change') : 4ms
-select `confessions`.* from `confessions` where `confessions`.`id` = '15' : 12ms
-insert into `confessions` (`confession`) values ('the courage to change') : 5ms
-select `confessions`.* from `confessions` where `confessions`.`id` = '16' : 1ms
+select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 1ms
+select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
+select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 1ms
+select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
+select `confessions`.* from `confessions` order by `id` desc limit '10' offset '10' : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('18', '17', '16', '15', '14', '13', '12', '11', '10', '9') : 1ms
+select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
+select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 3ms
+select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 3ms
+select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 1ms
+select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
 select `confessions`.* from `confessions` order by `id` desc limit '10' : 2ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 1ms
+select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
+select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 1ms
+select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
+select `confessions`.* from `confessions` order by `id` desc limit '10' : 2ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 2ms
 select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 3ms
 select `confessions`.* from `confessions` order by `id` desc limit '10' : 2ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 5ms
 select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('23', 'something') : 37ms
 select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-insert into `confessions` (`confession`) values ('dasdasd') : 2ms
-select `confessions`.* from `confessions` where `confessions`.`id` = '17' : 2ms
-insert into `confessions` (`confession`) values ('cunt') : 2ms
-select `confessions`.* from `confessions` where `confessions`.`id` = '18' : 10ms
-insert into `confessions` (`confession`) values ('dick') : 18ms
-select `confessions`.* from `confessions` where `confessions`.`id` = '19' : 1ms
-insert into `confessions` (`confession`) values ('lul') : 9ms
-select `confessions`.* from `confessions` where `confessions`.`id` = '20' : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 2ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 4ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 3ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 2ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-insert into `confessions` (`confession`) values ('asdfadf') : 5ms
-select `confessions`.* from `confessions` where `confessions`.`id` = '21' : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 2ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' offset '10' : 2ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' offset '20' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 2ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' offset '30' : 2ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' offset '40' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' offset '50' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' offset '60' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' offset '70' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' offset '80' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' offset '90' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' offset '100' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 2ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 0ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 2ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 2ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 2ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' offset '10' : 2ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 2ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' offset '20' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' offset '30' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 2ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 2ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' offset '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' offset '20' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' offset '10' : 2ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' offset '20' : 2ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-insert into `confessions` (`confession`) values ('asdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdasdkjaslkdjaklsd
-ajsldkajlskdv') : 5ms
-select `confessions`.* from `confessions` where `confessions`.`id` = '22' : 16ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-insert into `confessions` (`confession`) values ('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa') : 5ms
-select `confessions`.* from `confessions` where `confessions`.`id` = '23' : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' offset '10' : 2ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' offset '20' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' offset '30' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-insert into `confessions` (`confession`) values ('when i popped of') : 3ms
-select `confessions`.* from `confessions` where `confessions`.`id` = '24' : 1ms
-insert into `confessions` (`confession`) values ('____________________________¶
-____________________________¶¶¶
-___________________________¶¶¶¶¶¶¶¶
-___________________________¶¶____¶¶¶¶
-______________________¶¶¶__¶¶__¶____¶¶¶________¶¶¶
-_________________¶¶¶¶¶¶¶¶¶¶¶¶___¶¶___¶¶_____¶¶¶¶¶¶¶¶¶
-_______________¶¶¶¶¶_______¶¶¶___¶¶___¶¶_¶¶¶¶_______¶¶
-_____________¶¶¶¶_____¶_____¶¶¶___¶¶__¶¶¶¶________¶¶¶¶
-___________¶¶¶¶_______¶_______¶¶___¶_¶¶¶______¶¶¶¶¶¶
-__________¶¶¶_________¶¶____¶¶¶¶¶__¶¶¶¶____¶¶¶¶¶
-_________¶¶¶___¶__________¶¶¶¶___¶¶¶¶¶___¶¶¶¶¶¶
-________¶¶____¶¶_________¶¶¶____¶__¶¶__¶¶¶____¶¶¶
-_______¶¶_____¶¶________¶¶____¶¶¶__¶¶¶¶¶____¶¶__¶¶
-______¶¶__¶____¶¶______¶¶¶___¶¶¶_____¶¶¶¶¶___¶¶__¶¶
-_____¶¶___¶____________¶¶___¶¶¶______¶¶¶¶¶¶___¶¶__¶¶
-____¶¶____¶¶_________¶¶¶___¶¶_________¶___¶¶¶__¶¶__¶¶¶
-____¶¶________________¶¶¶___________¶¶__¶¶_¶¶¶__¶__¶¶¶
-___¶¶_¶__________¶_____¶¶¶¶______¶¶¶¶___¶¶___¶¶¶__¶¶¶¶
-__¶¶¶_¶__________¶_______¶¶¶¶¶¶¶¶¶¶¶____¶____¶¶¶¶¶¶¶¶
-__¶¶__¶¶¶________¶________________¶¶____¶___¶¶_____¶¶
-_¶¶________¶_____¶¶_______________¶¶¶___¶___') : 3ms
-select `confessions`.* from `confessions` where `confessions`.`id` = '25' : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 2ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 2ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 2ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 2ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 2ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 2ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 2ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' : 2ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 1ms
 select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
 select `confessions`.* from `confessions` order by `id` desc limit '10' : 5ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 2ms
 select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' offset '10' : 1ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 2ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' offset '20' : 2ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('29', 'sjdklasjdk') : 4ms
+select `confessions`.* from `confessions` order by `id` desc limit '10' : 2ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 1ms
+select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 0ms
+select `confessions`.* from `confessions` order by `id` desc limit '10' : 2ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 3ms
 select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
-select `confessions`.* from `confessions` order by `id` desc limit '10' offset '30' : 0ms
-select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 2ms
+select `confessions`.* from `confessions` order by `id` desc limit '10' : 2ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 1ms
+select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('29', 'sjdkalsjdlk') : 2ms
+select `confessions`.* from `confessions` order by `id` desc limit '10' : 2ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 4ms
+select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
+select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 1ms
+select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('29', 'sdasd') : 4ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('29', 'sdasd somaosdjaslkdj') : 2ms
+select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 1ms
+select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('29', 'something') : 3ms
+select `confessions`.* from `confessions` order by `id` desc limit '10' : 2ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 1ms
+select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('29', 'stuck in the weeeeds') : 2ms
+insert into `confession_replies` (`confession_id`, `reply`) values ('29', 'have I the courage to change.
+
+asjdasjdkl') : 28ms
+select `confessions`.* from `confessions` order by `id` desc limit '10' : 1ms
+select `confession_replies`.* from `confession_replies` where `confession_replies`.`confession_id` in ('29', '28', '27', '26', '24', '23', '22', '21', '20', '19') : 3ms
+select count(*) as `count` from (select `confessions`.* from `confessions`) as `temp` : 1ms

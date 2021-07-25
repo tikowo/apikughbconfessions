@@ -13,4 +13,5 @@ router.get('/test', AuthMiddleware, TestController.index);
 
 router.get('/confessions', ConfessionController.index);
 router.post('/confessions', ConfessionController.store);
+router.post('/confessions/:id', ConfessionController.reply);
 module.exports = router;
